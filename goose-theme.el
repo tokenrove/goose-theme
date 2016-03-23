@@ -4,7 +4,7 @@
 
 ;; Author: Stephen Whipple <shw@wicdmedia.org>
 ;; URL: https://github.com/thwg/goose-theme
-;; Version: 1.0.0
+;; Version: 2.0.0
 ;; Package-Requires: ((emacs "24.1"))
 
 ;; This program is free software; you can redistribute it and/or modify
