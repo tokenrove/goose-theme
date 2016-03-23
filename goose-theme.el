@@ -1,4 +1,4 @@
-;;; goose-theme.el --- A gray color theme for Emacs.
+;;; goose-theme.el --- A gray color theme.
 
 ;; Copyright (c) 2016 Stephen Whipple
 
@@ -127,7 +127,7 @@
  '(js2-jsdoc-type ((t (:inherit font-lock-doc-face))))
  '(js2-jsdoc-value ((t (:inherit font-lock-doc-face))))
  ;; magit
- '(magit-section-highlight ((t (:background "#DEDEDE")))) 
+ '(magit-section-highlight ((t (:background "#DEDEDE"))))
  ;; markdown
  '(markdown-markup-face ((t (:foreground "#333333"))))
  ;; mu4e
