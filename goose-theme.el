@@ -1,4 +1,4 @@
-;;; goose-theme.el --- A gray color theme.
+;;; goose-theme.el --- A gray color theme
 
 ;; Copyright (c) 2016 Stephen Whipple
 
@@ -29,7 +29,7 @@
 
 ;;; Code:
 
-(deftheme goose "A gray color theme for Emacs")
+(deftheme goose "A gray color theme")
 
 (custom-theme-set-variables
  'goose
