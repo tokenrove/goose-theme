@@ -62,6 +62,7 @@
  '(region ((t (:background "#C0C0C0"))))
  '(secondary-selection ((t (:background "#C0C0C0"))))
  '(underline ((t nil)))
+ '(variable-pitch ((t nil)))
  '(warning ((t (:inherit error))))
  '(widget-button ((t (:inherit link))))
  '(widget-field ((t (:background "#DEDEDE"))))
