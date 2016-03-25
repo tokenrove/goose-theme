@@ -40,6 +40,7 @@
  'goose
  '(default ((t (:inherit nil :stipple nil :background "#CECECE" :foreground "#000000" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal))))
  '(error ((t (:foreground "#AA0000" :weight bold))))
+ '(fixed-pitch ((t nil)))
  '(font-lock-builtin-face ((t (:weight normal))))
  '(font-lock-comment-face ((t (:foreground "#444444"))))
  '(font-lock-comment-face ((t (:foreground "#555555"))))
