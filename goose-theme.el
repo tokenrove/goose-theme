@@ -49,6 +49,7 @@
  '(font-lock-preprocessor-face ((t (:weight bold))))
  '(font-lock-string-face ((t (:slant italic))))
  '(font-lock-type-face ((t nil)))
+ '(font-lock-warning-face ((t (:inherit error))))
  '(font-lock-variable-name-face ((t nil)))
  '(fringe ((t (:background "#CECECE"))))
  '(header-line ((t (:inherit mode-line))))
@@ -61,7 +62,7 @@
  '(region ((t (:background "#C0C0C0"))))
  '(secondary-selection ((t (:background "#C0C0C0"))))
  '(underline ((t nil)))
- '(warning ((t (:foreground "#772277" :weight bold))))
+ '(warning ((t (:inherit error))))
  '(widget-button ((t (:inherit link))))
  '(widget-field ((t (:background "#DEDEDE"))))
  ;; avy
