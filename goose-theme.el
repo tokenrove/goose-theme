@@ -38,7 +38,6 @@
 
 (custom-theme-set-faces
  'goose
- ;; emacs
  '(default ((t (:inherit nil :stipple nil :background "#CECECE" :foreground "#000000" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal))))
  '(error ((t (:foreground "#AA0000" :weight bold))))
  '(font-lock-builtin-face ((t (:weight normal))))
@@ -61,8 +60,6 @@
  '(mode-line-inactive ((t (:inherit mode-line :background "#B0B0B0"))))
  '(region ((t (:background "#C0C0C0"))))
  '(secondary-selection ((t (:background "#C0C0C0"))))
- '(show-paren-match ((t (:background "#AAAAAA"))))
- '(show-paren-mismatch ((t (:background "#444444" :foreground "#FFFFFF"))))
  '(underline ((t nil)))
  '(warning ((t (:foreground "#772277" :weight bold))))
  '(widget-button ((t (:inherit link))))
@@ -103,8 +100,6 @@
  ;; gnus
  '(gnus-button ((t (:inherit widget-button))))
  '(gnus-cite-1 ((t (:foreground "#222222"))))
- '(gnus-cite-10 ((t (:foreground "#999999"))))
- '(gnus-cite-11 ((t (:foreground "#999999"))))
  '(gnus-cite-2 ((t (:foreground "#444444"))))
  '(gnus-cite-3 ((t (:foreground "#666666"))))
  '(gnus-cite-4 ((t (:foreground "#888888"))))
@@ -113,6 +108,8 @@
  '(gnus-cite-7 ((t (:foreground "#999999"))))
  '(gnus-cite-8 ((t (:foreground "#999999"))))
  '(gnus-cite-9 ((t (:foreground "#999999"))))
+ '(gnus-cite-10 ((t (:foreground "#999999"))))
+ '(gnus-cite-11 ((t (:foreground "#999999"))))
  '(gnus-group-mail-3 ((t (:weight bold))))
  '(gnus-header-content ((t nil)))
  '(gnus-header-name ((t (:weight bold))))
@@ -120,6 +117,9 @@
  '(gnus-summary-normal-read ((t nil)))
  '(gnus-summary-normal-unread ((t (:weight bold))))
  '(gnus-summary-selected ((t (:background "#DEDEDE"))))
+ ;; ivy
+ '(ivy-current-match ((t (:inherit highlight))))
+ '(ivy-modified-buffer ((t (:weight bold))))
  ;; js2
  '(js2-external-variable ((t nil)))
  '(js2-function-param ((t nil)))
@@ -159,9 +159,9 @@
  '(outline-6 ((t (:weight bold))))
  '(outline-7 ((t (:weight bold))))
  '(outline-8 ((t (:weight bold))))
- ;; swiper
- '(ivy-current-match ((t (:inherit highlight))))
- '(ivy-modified-buffer ((t (:weight bold))))
+ ;; show-paren
+ '(show-paren-match ((t (:background "#AAAAAA"))))
+ '(show-paren-mismatch ((t (:background "#444444" :foreground "#FFFFFF"))))
  ;; sx
  '(sx-custom-button ((t (:inherit custom-button))))
  ;; web-mode
