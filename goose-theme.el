@@ -164,6 +164,15 @@
  '(show-paren-mismatch ((t (:background "#444444" :foreground "#FFFFFF"))))
  ;; sx
  '(sx-custom-button ((t (:inherit custom-button))))
+ ;; term
+ '(term-color-black ((t (:foreground "#111111"))))
+ '(term-color-red ((t (:foreground "#AA0000"))))
+ '(term-color-green ((t (:foreground "#00AA00"))))
+ '(term-color-yellow ((t (:foreground "#AA5500"))))
+ '(term-color-blue ((t (:foreground "#0000AA"))))
+ '(term-color-magenta ((t (:foreground "#AA00AA"))))
+ '(term-color-cyan ((t (:foreground "#00AAAA"))))
+ '(term-color-white ((t (:foreground "#EDEDED"))))
  ;; web-mode
  '(web-mode-comment-keyword-face ((t (:inherit font-lock-keyword-face))))
  '(web-mode-css-selector-face ((t nil)))
