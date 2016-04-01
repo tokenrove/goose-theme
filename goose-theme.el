@@ -100,6 +100,9 @@
  ;; eww
  '(eww-form-submit ((t (:inherit widget-button))))
  '(eww-form-text ((t (:inherit widget-field))))
+ ;; flyspell
+ '(flyspell-duplicate ((t (:inherit flyspell-incorrect))))
+ '(flyspell-incorrect ((t (:underline (:color "#AA0000" :style wave)))))
  ;; gnus
  '(gnus-button ((t (:inherit widget-button))))
  '(gnus-cite-1 ((t (:foreground "#222222"))))
